@@ -152,3 +152,8 @@ html, body {
 .author h1 {
     font-size: 1.3em;
 }
+.author-photo {
+    height: 48px;
+    width: 48px;
+    float: left;
+}
