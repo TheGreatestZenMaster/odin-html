@@ -75,7 +75,7 @@ section {
 }
 
 article {
-  padding: 43px 50px 50px 50px;
+  padding: 43px 50px 00px 50px;
   min-height: 330px;
 }
 
@@ -138,14 +138,60 @@ label {
   margin-bottom: 10px;
 }
 
-.input-div {
-  padding-top: 10px
-}
 input {
-  clear: both;
   position: relative;
   border: 1px solid #ccc;
   border-radius: 3px;
   height: 34px;
   width: 320px;
+}
+
+#remember-me {
+  top: 2px;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+#checkbox {
+  border: 1px solid #d8d8d8;
+  border-radius: 3px;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+}
+
+#signup-button {
+  border-radius: 2px;
+  border: none;
+  color: white;
+  background: #0077C5;
+  text-transform: uppercase;
+  height: 34px;
+  width: 111px;
+}
+
+.remember-me {
+  display: inline-block;
+  padding-bottom: 25px;
+}
+
+
+footer {
+  position: relative;
+  max-width: 100%;
+  margin-top: 50px;
+}
+
+nav {
+  margin: auto;
+}
+nav li {
+  border-left: 1px solid lightgray;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav li:first-child {
+  border: none;
 }
