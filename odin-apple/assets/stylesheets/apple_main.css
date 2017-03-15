@@ -15,6 +15,7 @@
     border-radius: 4px;
     background: #707070;
     top: 18px;
+    background: -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 }
 
 .navbar-ul {
