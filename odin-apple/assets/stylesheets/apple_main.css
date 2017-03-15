@@ -1,0 +1,165 @@
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+/* Nav Bar */
+
+#global-navbar {
+    z-index: 1;
+    margin: 0 auto;
+    height:  36px;
+    position: relative;
+    width: 980px;
+    border-radius: 4px;
+    background: #707070;
+    top: 18px;
+}
+
+.navbar-ul {
+    list-style-type: none;
+    display: inline;
+}
+
+.navbar-ul li {
+    border-left: 1px solid black;
+    float: left;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    color: white;
+    height: 100%;
+    width: 103px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.navbar-ul li:first-child {
+    border: none;
+}
+
+.navbar-search {
+    float: left;
+    padding: 7px 10px;
+    max-width: 132px;
+    border-left: 1px solid black;
+}
+
+#search {
+    overflow: hidden;
+}
+
+#search input {
+    border-radius: 12px;
+    border: .5px solid black;
+    background: none;
+    width: 66px;
+    height: 16px;
+    padding: 2px 18px 1px 22px;
+}
+
+/* Main */
+
+.main {
+    margin-top: -40px;
+    width: 1440px;
+    right: auto;
+    height: 100%;
+    min-height: 540px;
+    background: url("../images/hero.jpg") 50% 100% no-repeat;
+    background-size: 1440px 1315px;
+    float: left;
+}
+
+.main header {
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+
+.main header h1 {
+    margin-top: 70px;
+    font-size: 72px;
+    font-weight: 100;
+}
+
+.main header p {
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 36px;
+}
+
+.main header a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    width: 980px;
+}
+
+/* Promos */
+.promos {
+    width: 100%;
+    clear: both;
+    overflow:hidden;
+}
+
+.promo-ul {
+    display: inline;
+}
+
+.promo-ul li {
+    float: left;
+}
+
+footer {
+    clear: both;
+    padding-top: 15px;
+    font-size: 12px;
+    line-height: 1.2;
+    color: gray;
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+.contact {
+    float: left;
+}
+.bottom-navbar {
+    float: right;
+    font-size: .83em;
+}
+.bottom-navbar ul {
+    display: inline;
+}
+.bottom-navbar ul li {
+    padding: 0 7px;
+    float: left;
+    border-left: 1px solid gray;
+}
+.bottom-navbar ul li:first-child {
+    border: none;
+}
+
+.copyright {
+    overflow: hidden;
+    padding: 15px 0;
+    clear: both;
+}
+
+.copyright ul {
+    display: inline;
+}
+
+.copyright span {
+    float: left;
+}
+.copyright ul li {
+    float: left;
+}
