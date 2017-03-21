@@ -1,0 +1,301 @@
+* ,
+* :before,
+* :after {
+     -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+             box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+
+/* Nav Bar */
+
+nav {
+    display: none;
+}
+@media (min-width: 1023px) {
+    nav {
+        width: 100%;
+        background: black;
+        font-size: 13px;
+        line-height: 32px;
+        max-height: 32px;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .left-nav {
+        float: left;
+    }
+    
+    .right-nav {
+        float: right;
+    }
+    
+    .nav-ul li {
+        list-style: none;
+        display: inline;
+    }
+    
+    .right-nav li {
+        padding-right: 12px;
+    }
+    .right-nav li:last-child {
+        padding-right: 20px;
+    }
+    .left-nav li {
+        padding-left: 12px;
+    }
+    .left-nav li:first-child {
+        padding-left: 20px;
+    }
+    .nav-ul li a {
+        text-decoration: none;
+        color: rgba(255,255,255,.6);
+    }
+    .nav-ul li a:hover {
+        color: #fff;
+    }
+    
+    .u-clear {
+        clear: both;
+        line-height: 48px;
+        max-height: 48px;
+        width: 100%;
+        box-shadow: 0 15px 15px 0 rgba(182, 182, 182, 0.1);
+        width: 100%;
+    }
+    
+    .u-clear li {
+        float: left;
+    }
+    
+    u-clear ul {
+        width: 100%;
+    }
+    
+    .right {
+        float: right;
+        width: 25%;
+        border: 1px solid red;
+    }
+    .right li {
+        float: right;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    /* Nav Part 2 */
+    
+    .dropdown {
+        padding: 0 20px;
+        color: #aaa;
+        text-transform: uppercase;
+    }
+    .countdown {
+        margin: 0 33%;
+        height: 48px;
+        width: 600px;
+        background-image: url("../images/countdown.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-right: 100px;
+    }
+    
+    .social-media {
+        height: 48px;
+        width: 138px;
+        background-image: url("../images/social_media.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;
+    }
+    
+    .search {
+        height: 48px;
+        width: 48px;
+        background-image: url("../images/search.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-left: 1px solid #aaa;
+    }
+    
+}
+/* Cover Story */
+
+#cover {
+    width: 100%;
+    height: 100%;
+    clear: both;
+    padding: 4px;
+}
+
+.cover-story {
+    width: 100%;
+    height: 100%;
+}
+
+.grid3 article {
+    width: 100%;
+    height: 240px;
+    float: left;
+    padding: 4px;
+}
+    
+
+.cover-image {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      rgba(256, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)),
+      url("https://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/Pokemon-Apple-Watch-796x399.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px auto
+    
+}
+
+.vr-cover {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/Disney-VR-796x398.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.zapier-cover {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/zapier-logo-796x398.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    
+}
+
+/* Latest News */
+
+.wrapper {
+    max-width: 1192px;
+    margin: 0 auto;
+}
+.latest {
+    width: 100%;
+    padding-top: 24px;
+}
+
+.latest h2 {
+    color: #f42;
+    font-size: 28px
+}
+
+.u-col-3 {
+    width: 100%;
+    height: 72px;
+    padding: 8px;
+    padding: 10px;
+    }
+    
+.u-col-3 div {
+    width: inherit;
+    max-width: 72px;
+    height: 100%;
+    float: left;
+    background-size: cover;
+}
+
+.latest ul li h1 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.latest ul li h4 {
+    color: #aaa;
+    font-size: 13px;
+    padding-top: 4px;
+}
+
+.nest-cam {
+    background-image: url("https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/baby-party.gif");
+    
+}
+
+.tesla {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/tesla-record-540x270.jpg");
+    
+}
+
+.bath {
+    background-image: url("https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/01/unplug-e1490035443821-540x270.jpg");
+}
+
+.ebay {
+    background-image: url("https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/09/ebay4-1200x600.jpg");
+}
+
+.zapbuy {
+    background-image: url("https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/ZAPBuy-Image2-417x270.png");
+}
+
+.instagram {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/save-english-800x475-455x270.jpg");
+}
+
+.dutch-police {
+    background-image: url("https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/Microsoft-Logo-icon-png-Transparent-Background-e1490021206579-540x270.jpg");
+}
+
+.fintech {
+    background-image: url("https://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2014/12/Nairobi-730x279.jpg");
+}
+
+
+@media (min-width: 1024px) {
+    
+
+    .u-col-3 {
+       width: 33%; 
+       height: 231px;
+       padding: 10px;
+    }
+    .grid3 article {
+        width: 33.33%;
+        height: 240px;
+        float: left;
+        padding: 4px;
+    }
+    
+    .grid3 article:first-child {
+        width: 66.66%;
+        height: 480px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .u-col-3 {
+       width: 25%; 
+       height: 231px;
+       padding: 14px;
+    }
+    
+    .latest ul li {
+        float: left;
+    }
+
+    .latest ul li div {
+        height: 135px;
+        width: 270px;
+        background-size: cover;
+    }
+    
+}
