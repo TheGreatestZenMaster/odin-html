@@ -1,0 +1,72 @@
+body {
+    padding-top: 70px;
+    font-family: 'PT Serif', serif;
+}
+
+.logo {
+    background: url("https://g.europe.newsweek.com/www/img/redesign/sprite.png?v=1.0.0") 0 5px no-repeat #ff0500;
+    width: 230px;
+    height: 64px;
+    margin-right: 10px;
+}
+
+.bullet {
+    list-style: none;
+    padding-left: .8em;
+    position: relative;
+    text-align: left;
+}
+.bullet:before {
+    background: #ff0500;
+    content: "";
+    height: .5em;
+    left: 0;
+    position: absolute;
+    top: .4em;
+    width: .5em;
+}
+
+.list--border {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+nav {
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+    background: black;
+    font-size: 16px;
+    padding-bottom: 0 !important;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: .8em;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding: .05em 1em;
+    font-weight: 700;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.container-fluid {
+    margin: 2em auto;
+    width: 1280px;
+}
+
+.bullet a {
+    color: #0e0e0e;
+    font-weight: 700;
+    font-family: 'Source Sans Pro';
+}
+
+.sidebar h2 {
+    line-height: 1.1;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 1em 0;
+    text-transform: uppercase;
+}
