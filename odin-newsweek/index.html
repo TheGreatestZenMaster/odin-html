@@ -10,6 +10,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=PT+Serif|Source+Sans+Pro" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <nav class="navbar fixed-top navbar-toggleable-md nav-inverse">
@@ -37,14 +38,34 @@
                     <li class="nav-item">
                         <a href="http://europe.newsweek.com/world" class="nav-link">Tech & Science</a>
                     </li>
+                     <li class="nav-item active">
+                        <a href="http://europe.newsweek.com/world" class="nav-link">Business</a>
+                    </li>
                     <li class="nav-item">
                         <a href="http://europe.newsweek.com/world" class="nav-link">Video</a>
                     </li>
                     <li class="nav-item">
                         <a href="http://europe.newsweek.com/world" class="nav-link">The Magazine</a>
                     </li>
+                    <li class="nav-item search">
+                        <a href="#" class="nav-link"><i class="fa fa-search"></i></a>
+                    </li>
+                    <li class="header ml-auto">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link subscribe" href="#">Subscribe</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link"><i class="fa fa-map-marker"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sign In</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
+            
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -54,10 +75,57 @@
               <div class="col-md-8">
                   <article class="article--featured">
                       <img src="https://d.europe.newsweek.com/en/full/75710/air-ambulance-westminster.jpg?w=823&h=481&l=50&t=50">
+                      <div class="article--featured--meta">
+                          <div class="article--category">
+                              <a href="#">World</a>
+                          </div>
+                          <div class="article--featured--title">
+                              <a href="#">London Attack: Survivor Recounts Near-Miss, Horror as Car Rammed Civilians</a>
+                          </div>
+                         <div class="article--featured--summary">
+                             <p>Rob Lyon describes how he survived an attack in the heart of British democracy.</p>
+                         </div>
+                        </div>
                   </article>
-                  <section>
-                      <article class="col-md-6">.</article>
-                      <article class="col-md-6">.</article>
+                  <section class="row">
+                      <article class="col-md-6">
+                          <a href="#"><img src="https://d.europe.newsweek.com/en/full/75726/london-parliament-attack.jpg?w=381&h=255&l=50&t=50"></a>
+                          <div>
+                              <div class="article--category">
+                                  <a href="#">World</a>
+                              </div>
+                              <div class="article--title">
+                                  <a href="#">ISIS Supporters Celebrate London Parliament Attack on Islamic State Social Media Channels</a>
+                              </div>
+                             <div class="article--summary">
+                                 <p>Islamic State supporters cheered an attack in London as revenge for British strikes against ISIS...</p>
+                             </div>
+                             <ul>
+                                 <li class="list--grid list--border blue-bullet bullet">
+                                     <a href="#">London Attack: Police Confirm Multiple Deaths in Attacks Near Parliament</a>
+                                 </li>
+                             </ul>
+                          </div>
+                      </article>
+                      <article class="col-md-6">
+                          <a href="#"><img src="https://d.europe.newsweek.com/en/full/75734/paul-manafort.jpg?w=381&h=255&l=50&t=50"></a>
+                          <div>
+                              <div class="article--category">
+                                  <a href="#">World</a>
+                              </div>
+                              <div class="article--title">
+                                  <a href="#">What We Know About Paul Manafort’s Links to Oleg Deripaska and the Kremlin</a>
+                              </div>
+                             <div class="article--summary">
+                                 <p>Oleg Deripaska allegedly worked with former Trump aide Paul Manafort to push Putin's agenda.</p>
+                             </div>
+                             <ul>
+                                 <li class="list--grid list--border bullet blue-bullet">
+                                     <a href="#">Who is Oleg Deripaska? Paul Manafort Allegedly Worked With Russian Magnate to Advance Putin's Interests</a>
+                                 </li>
+                             </ul>
+                          </div>
+                      </article>
                   </section>
               </div>
               <aside class="col-md-4 sidebar">
@@ -72,6 +140,20 @@
                   </ul>
               </aside>
           </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <section class="col-sm-12">
+                    <div class="h2 section--heading">Headlines</div>
+                    <div class="d--flex flow--columnwrap headline-container">
+                        <article class="col-sm-6 col-md-4">
+                            <a href="#"><img src="https://d.europe.newsweek.com/en/full/75719/palace-westminster.jpg?w=387&h=259&l=50&t=50"></a>
+                            
+                        </article>
+                    </div>
+                </section>
+                
+            </div>
         </div>
     </body>
 </html>
