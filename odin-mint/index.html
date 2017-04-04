@@ -9,7 +9,9 @@
     <body>
         <div class="wrapper">
             <header class="head">
-                <div id="logo"></div>
+                <div id="logo">
+                    <a href="https://www.mint.com/" class="logo-link"></a>
+                </div>
                 <div id="tabs">
                     <h2><ul>
                         <li id="signup"><a href="https://mint.intuit.com/login.event?task=S"><strong>Sign Up</strong></a></li>
@@ -35,7 +37,7 @@
                             <fieldset>
                                 <label class="label">Phone(recommended)</label>
                                 <div><input type="text"></input></div>
-                                <p>Standard call, messaging or data rates may apply.</p>
+                                <p class="terms">Standard call, messaging or data rates may apply.</p>
                             </fieldset>
                             <fieldset>
                                 <label class="label">Password</label>
@@ -52,6 +54,11 @@
                                 <input type="submit" id="signup-button" value="Sign up"></input>
                             </fieldset>
                         </form>
+                        <footer>
+                            <span>
+                                <p>By clicking Sign Up you agree to our <a href="#">Terms of Use</a> and <a href="#">Privacy Statement</a></p>
+                            </span>
+                        </footer>
                     </div>
                     <div id="right">
                     <aside>
@@ -66,18 +73,24 @@
                     </div>
                 </article>
             </section>
-            <footer>
-                <nav>
-                    <ul>
-                        <li>Support</li> 
-                        <li>Terms of Use</li> 
-                        <li>Privacy</li> 
-                        <li>Legal and Trademark Notice</li> 
-                        <li>About</li> 
-                        <li>Intuit</li>
-                    </ul>
-                </nav>
-            </footer>
+        </div>
+        <div class="mainfooter">
+            <nav>
+                <ul>
+                    <li>Support</li> 
+                    <li>Terms of Use</li> 
+                    <li>Privacy</li> 
+                    <li>Legal and Trademark Notice</li> 
+                    <li>About Intuit</li>
+                </ul>
+            </nav>
+            <div class="terms-footer">
+                <p class="">Mint bill pay services provided by Intuit Payments Inc. under applicable <a href="#" class="licenses">licenses</a>.</p>
+            </div>
+            <div class="secutity"></div>
+            <div class="copyright">
+                <p>© 2017 Intuit, Inc.  |  ph7625.3 - spa100.11</p>
+            </div>
         </div>
     </body>
 </html>

@@ -4,6 +4,7 @@ body{
     height: 100%;
     display: block;
     font-family: "AvenirNext-Regular-Mint", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-bottom: 200px;
 }
 .wrapper {
   margin: 0 auto;
@@ -37,6 +38,14 @@ header {
     margin-right: calc(100% - 103px);
 }
 
+.logo-link {
+  background: none;
+  height: 81px;
+  width: 194px;
+  float: left;
+  z-index: 2;
+}
+
 #tabs {
   right: 5px;
   top: -20px;
@@ -45,6 +54,10 @@ header {
   bottom: 0;
   right: 0;
   width: auto;
+}
+
+.help {
+  background: blue;
 }
 #tabs li {
   display: inline;
@@ -71,7 +84,7 @@ section {
   min-height: 450px;
   max-width: 800px;
   margin: auto;
-  box-shadow: 1px 3px 8px
+  box-shadow: 1px 3px 8px lightgray;
 }
 
 article {
@@ -126,14 +139,15 @@ aside li {
 
 /* Form */
 fieldset {
-  min-height: 115px;
   display: block;
+  margin-bottom: 23px;
+  margin-top: 10px;
 }
 
 label {
   position: relative;
   width: 398px;
-  font-size: 14px;
+  font-size: 13px;
   padding-bottom:  6px;
   margin-bottom: 10px;
 }
@@ -144,27 +158,28 @@ input {
   border-radius: 3px;
   height: 34px;
   width: 320px;
+  margin-top: 15px;
 }
 
-#remember-me {
-  top: 2px;
-  margin-left: 30px;
-  vertical-align: middle;
+.terms {
+  font-size: 10px;
+  color: gray;
 }
+
 
 #checkbox {
   border: 1px solid #d8d8d8;
   border-radius: 3px;
   width: 19px;
   height: 19px;
-  position: absolute;
+  vertical-align: -4px;
 }
 
 #signup-button {
   border-radius: 2px;
   border: none;
   color: white;
-  background: #0077C5;
+  background: #45cae6;
   text-transform: uppercase;
   height: 34px;
   width: 111px;
@@ -172,26 +187,75 @@ input {
 
 .remember-me {
   display: inline-block;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
+  height: 31px;
 }
 
+#remember-me {
+  margin-left: 5px;
+  font-size: 13px;
+  
+}
 
 footer {
-  position: relative;
-  max-width: 100%;
-  margin-top: 50px;
+  font-size: 12px;
+  color: #7d7f80;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+footer a {
+  color: #45cae6 !important;
+  text-decoration: none;
+}
+
+.mainfooter {
+  max-width: 1000px;
+  margin: 40px auto;
+  margin-top: 60px;
 }
 
 nav {
-  margin: auto;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
+nav ul {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 nav li {
   border-left: 1px solid lightgray;
   display: inline;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 14px;
+  color: #a5a5a5;
+  
 }
 
 nav li:first-child {
   border: none;
+}
+
+.mainfooter div {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.terms-footer p{
+  font-size: 12px;
+  color: #a5a5a5;
+}
+
+.licenses {
+  color: #45cae6 !important;
+  text-decoration: none;
+}
+
+.copyright p {
+  font-size: 10px;
+  color: #a5a5a5;
 }
